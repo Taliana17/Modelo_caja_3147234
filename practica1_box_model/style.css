@@ -1,0 +1,45 @@
+/*
+  Box Model:
+  -solo funciona en elementos 
+     display:block; 
+  - div la tiene por defecto
+  -comportamiento por defectol:
+     - ocupa todo el ancho de pantalla
+  - funciona si:
+     -los ementos tienen contenido 
+     o tienen un tamaño definido 
+*/
+.box{
+    border-top-color: cornflowerblue;
+    border-top-style: dashed;
+    border-top-width: 10px;
+    border-right-color:purple;
+    border-right-style:  dotted;
+    border-right-width: 8px ;
+    border-left-color:  peru;
+    border-left-style: double;
+    border-left-width:  10px;
+    border-bottom-color:  rgb(181, 251, 173);
+    border-bottom-style: groove;
+    border-bottom-width:  10px;
+
+
+}
+    
+    
+.box1{
+    background: pink;
+    padding: 50px  45px 3px ;
+    display: block;
+    height: 100px;
+   
+
+   
+}
+.box2{
+    background: plum;
+    display: block;
+    height: 200px;
+    padding: 2px  4px 6px 8px ;
+
+}
